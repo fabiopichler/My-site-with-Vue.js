@@ -2,7 +2,7 @@
     <div>
         <div v-if="loading === 0" class="loading card mb-2">
             <div class="card-body d-flex flex-column justify-content-center text-center h-100">
-                <div v-if="loading == 0" class="text-secondary">
+                <div class="text-secondary">
                     <div class="spinner-border" role="status">
                         <span class="sr-only">Loading...</span>
                     </div>
@@ -55,6 +55,5 @@ export default class TheLoading extends Vue {
                 }
             }
         }
-
     }
 </style>

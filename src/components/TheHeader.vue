@@ -1,22 +1,20 @@
 <template>
-    <header class="container px-0 px-sm-1">
-        <div class="header mb-2 p-0">
-            <div class="h-100">
-                <div class="header-bg background-cover">
-                    <div class="d-flex flex-column justify-content-center h-100 ml-3 ml-sm-5">
-                        <h1 class="site-title text-white">
-                            <span class="d-inline-block text-right">
-                                Fábio Pichler<br>
-                                <span class="subtitle">» and the technology</span>
-                            </span>
-                        </h1>
-                    </div>
+    <header class="header mb-2 p-0">
+        <div class="h-100">
+            <div class="header-bg background-cover">
+                <div class="d-flex flex-column justify-content-center h-100 ml-3 ml-sm-5">
+                    <h1 class="site-title text-white">
+                        <span class="d-inline-block text-right">
+                            Fábio Pichler<br>
+                            <span class="subtitle">» and the technology</span>
+                        </span>
+                    </h1>
                 </div>
             </div>
+        </div>
 
-            <div class="bg-white px-3">
-                <Navigation :items="menu" />
-            </div>
+        <div class="bg-white px-3">
+            <Navigation :items="menu" />
         </div>
     </header>
 </template>

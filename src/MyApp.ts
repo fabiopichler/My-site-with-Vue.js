@@ -1,6 +1,6 @@
 
 export default Object.freeze({
-    name: 'Fábio Pichler',
+    name: 'Fábio Pichler (Vue.js App)',
     version: '0.0.1',
 
     updateTitle(title: string|null = null) {

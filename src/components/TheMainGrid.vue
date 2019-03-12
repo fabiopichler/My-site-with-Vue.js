@@ -1,13 +1,11 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <main class="col-lg-8 px-0 px-sm-1 order-first">
-                <slot name="main" />  
-            </main>
+    <div class="row m-0">
+        <main class="col-lg-8 px-0 pr-lg-2 order-first">
+            <slot name="main" />  
+        </main>
 
-            <div class="col-lg-4 px-0 px-sm-1">
-                <slot name="aside" />
-            </div>
+        <div class="col-lg-4 px-0">
+            <slot name="aside" />
         </div>
     </div>
 </template>

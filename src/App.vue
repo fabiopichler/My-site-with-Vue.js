@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container px-0">
         <TheHeader />
         
         <the-main-grid>
